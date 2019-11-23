@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="398f6b37-752c-4325-a4a0-32df87d47088" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../graph/checkPathInDirectedGraph/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/checkPathInDirectedGraph/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/checkPathInDirectedGraph/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/checkPathInDirectedGraph/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/checkPathInDirectedGraph/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/checkPathInDirectedGraph/checkPathInDirectedGraph.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/dijkstra/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/dijkstra/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/dijkstra/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/dijkstra/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/dijkstra/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/dijkstra/.idea/sonarlint/issuestore/0/6/0670695633cde995942650e6d44b3d79fa9a3aff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/dijkstra/.idea/sonarlint/issuestore/3/a/3ab60872f365ff6fee76b90596b6f298e0190389" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/dijkstra/.idea/sonarlint/issuestore/9/0/90b53a051f8463a4b618d5fe6f7abe4a7f8f0d8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/dijkstra/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/dijkstra/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/dijkstra/dijkstra.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/.idea/sonarlint/issuestore/0/6/0670695633cde995942650e6d44b3d79fa9a3aff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/.idea/sonarlint/issuestore/2/a/2a9d289eeac8811725e62efaf0996c19d50ba884" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/.idea/sonarlint/issuestore/9/0/90b53a051f8463a4b618d5fe6f7abe4a7f8f0d8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/.idea/sonarlint/issuestore/9/6/96191d39b50e694f2f7b2069734c8f70eb7fc8f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/.idea/sonarlint/issuestore/c/2/c23a61dda9ccc75ac25338c4030e51cd1c21522c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/.idea/sonarlint/issuestore/d/d/dd6955891936a98fe1e4d5472ef21b4e98089da7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/kruskal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/out/production/kruskal/DisjointSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/out/production/kruskal/Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/out/production/kruskal/GraphNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/out/production/kruskal/MainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/kruskal/out/production/kruskal/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/.idea/sonarlint/issuestore/0/6/0670695633cde995942650e6d44b3d79fa9a3aff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/.idea/sonarlint/issuestore/3/a/3ab60872f365ff6fee76b90596b6f298e0190389" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/.idea/sonarlint/issuestore/9/0/90b53a051f8463a4b618d5fe6f7abe4a7f8f0d8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/out/production/prims/META-INF/prims.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/out/production/prims/MainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/out/production/prims/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/out/production/prims/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/mst/prims/prims.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quick sort/QuickSort.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="170" />
+    <option name="y" value="50" />
+    <option name="width" value="3500" />
+    <option name="height" value="1960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="merge sort" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merge sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merge sort" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merge sort" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../quick sort" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="398f6b37-752c-4325-a4a0-32df87d47088" name="Default Changelist" comment="" />
+      <created>1574504448883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574504448883</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="DB Browser" />
+      <window_info id="UI Designer" />
+      <window_info id="Project Explorer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Job Explorer" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Console" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
