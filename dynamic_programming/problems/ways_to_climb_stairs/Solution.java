@@ -8,7 +8,6 @@ Input Format:
 The first and the only argument contains an integer A, the number of steps.
 
 Output Format:
-
 Return an integer, representing the number of ways to reach the top.
 */
 
