@@ -1,3 +1,9 @@
+/*
+Given an array A, count the number of inversions in the array.
+
+Formally speaking, two elements A[i] and A[j] form an inversion if A[i] > A[j] and i < j
+*/
+
 import java.util.*;
 
 class GFG {
