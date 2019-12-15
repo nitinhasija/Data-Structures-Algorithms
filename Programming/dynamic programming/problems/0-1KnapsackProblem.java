@@ -74,11 +74,13 @@ public class Solution {
             for (int i = 0; i < size; i++)
                 weight[i] = sc.nextInt();
 
-            int[][] arr = new int[maxWeight + 1][size + 1];
+            int[][] memo = new int[maxWeight + 1][size + 1];
 
             for (int i = 0; i < maxWeight + 1; i++)
-                Arrays.fill(arr[i], -1);
+                Arrays.fill(memo[i], -1);
 
+//            System.out.println(topDownDp(weight, value, maxWeight, 0, memo));
+            
             System.out.println(bottumUpDp(weight, value, maxWeight));
         }
     }

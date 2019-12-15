@@ -16,67 +16,70 @@ Print maximum size square sub-matrix.
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Solution {
-    private static int topDownDp(int[] weights, int[] values, int maxWeight, int index, int[][] memo) {
-        if (index == weights.length)
+class GFG {
+    private static int memoization(int[][] arr, int i, int j, int[][] memo) {
+        if (i == arr.length || j == arr[0].length || arr[i][j] == 0)
             return 0;
+        else if (memo[i][j] != -1)
+            return memo[i][j];
 
-        if (memo[maxWeight][index] == -1) {
-            int include = 0;
+        memo[i][j] = 1 + Math.min(Math.min(memoization(arr, i + 1, j, memo),
+                memoization(arr, i, j + 1, memo)),
+                memoization(arr, i + 1, j + 1, memo));
 
-            int exclude = topDownDp(weights, values, maxWeight, index + 1, memo);
-
-            if (weights[index] <= maxWeight)
-                include = topDownDp(weights, values, maxWeight - weights[index], index + 1, memo) + values[index];
-
-            memo[maxWeight][index] = Math.max(include, exclude);
-        }
-        return memo[maxWeight][index];
+        return memo[i][j];
     }
 
+    private static int getSize(int[][] arr, int rows, int cols) {
+        int size = 0;
+        int memo[][] = new int[rows][cols];
+        for (int i = 0; i < rows; i++) {
+            Arrays.fill(memo[i], -1);
+        }
 
-    private static int bottumUpDp(int[] values, int[] weights, int maxWeight) {
-        int[][] table = new int[values.length + 1][maxWeight + 1];
+        for (int i = 0; i < rows; i++)
+            for (int j = 0; j < cols; j++)
+                if (arr[i][j] == 1)
+                    size = Math.max(size, memoization(arr, i, j, memo));
 
-        for (int i = 0; i <= values.length; i++) {
-            for (int j = 0; j <= maxWeight; j++) {
+        return size;
+
+//        return iterative(arr, rows, cols);
+    }
+
+    private static int iterative(int[][] arr, int rows, int cols) {
+        int size = 0;
+        int cache[][] = new int[rows][cols];
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
                 if (i == 0 || j == 0)
-                    table[i][j] = 0;
+                    cache[i][j] = arr[i][j];
 
-                else if (j - weights[i - 1] >= 0)
-                    table[i][j] = Math.max(table[i - 1][j], table[i - 1][j - weights[i - 1]] + values[i - 1]);
+                else if (arr[i][j] == 1)
+                    cache[i][j] = 1 + Math.min(Math.min(cache[i - 1][j], cache[i][j - 1]), cache[i - 1][j - 1]);
 
-                else
-                    table[i][j] = table[i - 1][j];
+                size = Math.max(size, cache[i][j]);
             }
         }
-        return table[values.length][maxWeight];
+        return size;
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int test = sc.nextInt();
         while (test-- > 0) {
-            int size = sc.nextInt();
-            int maxWeight = sc.nextInt();
 
-            int[] weight = new int[size];
-            int[] value = new int[size];
+            int n = sc.nextInt();
+            int m = sc.nextInt();
 
-            for (int i = 0; i < size; i++)
-                value[i] = sc.nextInt();
+            int arr[][] = new int[n][m];
 
-            for (int i = 0; i < size; i++)
-                weight[i] = sc.nextInt();
+            for (int j = 0; j < n; j++)
+                for (int i = 0; i < m; i++)
+                    arr[j][i] = sc.nextInt();
 
-            int[][] memo = new int[maxWeight + 1][size + 1];
-
-            for (int i = 0; i < maxWeight + 1; i++)
-                Arrays.fill(memo[i], -1);
-
-//            System.out.println(topDownDp(weight, value, maxWeight, 0, memo));
-            
-            System.out.println(bottumUpDp(weight, value, maxWeight));
+            System.out.println(getSize(arr, n, m));
         }
     }
 }
