@@ -9,6 +9,9 @@ Output Format:
 Return 0 / 1 ( 0 for false, 1 for true ) for this problem.
 */
 
+// Time Complexity - O(N^2)
+// Space Complexity - O(N)
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
