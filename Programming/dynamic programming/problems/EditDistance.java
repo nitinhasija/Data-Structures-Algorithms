@@ -20,7 +20,7 @@ Return an integer, representing the minimum number of steps required.
 public class Solution {
     public int minDistance(String A, String B) {
 //        return bottomUp(A, B, A.length() - 1, B.length() - 1, new int[A.length()][B.length()]);
-        return topDown(A, B);
+       return topDown(A, B);
     }
 
     private int bottomUp(String A, String B, int i, int j, int memo[][]) {
