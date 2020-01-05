@@ -38,7 +38,7 @@ class Node implements Comparable<Node> {
 }
 
 public class Solution {
-    HashMap<String, Integer> memo;
+    private HashMap<String, Integer> memo;
 
     private int getCost(int friendCapacity, int index, Node[] n) {
         if (index >= n.length)
