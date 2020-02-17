@@ -34,6 +34,9 @@ Explanation 2:
     Candies given = [1, 3, 2, 1]
 */
 
+// Time Complexity - O(N)
+// Space Complexity - O(N)
+
 import java.util.ArrayList;
 import java.util.Arrays;
 

@@ -30,6 +30,9 @@ Output 2: 350000
 Explanation 2:  70 * 50 * 100 = 350000
 */
 
+// Time Complexity - O(N*LogN)
+// Space Complexity - O(1)
+
 import java.util.ArrayList;
 import java.util.Collections;
 

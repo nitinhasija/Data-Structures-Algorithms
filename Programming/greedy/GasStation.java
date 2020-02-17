@@ -30,6 +30,9 @@ Explanation 1:
         It costs you B[0] = 2 to get to station 1, which you do and complete the circuit.
 */
 
+// Time Complexity - O(N)
+// Space Complexity - O(1)
+
 import java.util.List;
 
 public class Solution {
